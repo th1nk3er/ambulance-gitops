@@ -1,0 +1,11 @@
+apiVersion: polyfea.github.io/v1alpha1
+kind: WebComponent
+metadata:
+  name: lukasakova-ambulance-ufe-content
+spec:
+  microFrontend: lukasakova-ambulance-ufe
+  element: lukasakova-ambulance-wl-list
+  displayRules:
+    - allOf:
+      - context-name: main-content
+      - path: "^(\\.?/)?lukasakova-ambulance-wl(/.*)?$"

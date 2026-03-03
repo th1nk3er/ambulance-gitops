@@ -9,3 +9,6 @@ labels:
 
 resources:
 - ../../../apps/lukasakova-ambulance-ufe
+
+components:
+- ../../../components/version-developers

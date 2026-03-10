@@ -4,7 +4,10 @@ metadata:
   name: lukasakova-ambulance-ufe-content
 spec:
   microFrontend: lukasakova-ambulance-ufe
-  element: lukasakova-ambulance-wl-list
+  element: lukasakova-ambulance-wl-app
+  attributes:
+    - name: base-path
+      value: /lukasakova-ambulance-wl/
   displayRules:
     - allOf:
       - context-name: main-content

@@ -4,3 +4,6 @@ images:
 - name: domiluk/ambulance-ufe
   newName: domiluk/ambulance-ufe # {"$imagepolicy":  "wac-hospital:ambulance-ufe:name"}
   newTag: main.20260317.1153 # {"$imagepolicy": "wac-hospital:ambulance-ufe:tag"}
+- name: domiluk/ambulance-wl-webapi
+  newName: domiluk/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}

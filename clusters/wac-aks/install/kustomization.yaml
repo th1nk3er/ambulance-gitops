@@ -12,6 +12,7 @@ labels:
 
 resources:
 - ../../../apps/lukasakova-ambulance-ufe
+- ../../../apps/lukasakova-ambulance-webapi
 
 
 components:

@@ -1,0 +1,12 @@
+apiVersion: wac-fiit.github.io/v1alpha1
+kind: Project
+metadata:
+  name: lukasakova-ambulance-wl # napr. <pfx>-ambulance-wl
+spec:
+  title: "Zoznam čakajúcich lukasakova" # napr. "Zoznam čakajúcich <pfx>"
+  description: "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii" # napr. "Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii"
+  authors: "Dominika Lukašáková" # Zadajte mená autorov
+  azureLink: "https://lukasakova-ambulance.azurewebsites.net"
+  frontendRepoUrl: "https://github.com/th1nk3er/ambulance-ufe"
+  backendRepoUrl: "https://github.com/th1nk3er/ambulance-webapi"
+  gitopsRepoUrl: "https://github.com/th1nk3er/ambulance-gitops"
